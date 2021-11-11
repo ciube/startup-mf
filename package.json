@@ -1,0 +1,42 @@
+{
+  "name": "startup-mf",
+  "version": "1.0.0",
+  "description": "Microfrontend Architecture Study Project based on Single-Spa",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciube/startup-mf.git"
+  },
+  "keywords": [
+    "microfrontend",
+    "single-spa"
+  ],
+  "author": "Matteo Langone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciube/startup-mf/issues"
+  },
+  "homepage": "https://github.com/ciube/startup-mf#readme",
+  "dependencies": {
+    "single-spa": "^5.9.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
